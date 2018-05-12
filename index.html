@@ -1,510 +1,511 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <title>OAK - HTML Theme</title>
-    <meta name="description" content="">
-    <meta name="msapplication-tap-highlight" content="yes" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <!-- Google Web Font -->
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lekton:400,700,400italic' rel='stylesheet' type='text/css'>
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <!--  Bootstrap 3-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+<title>Brushed | Responsive One Page Template</title>   
 
-    <!-- OWL Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
+<meta name="description" content="Insert Your Site Description" /> 
 
-    <!--  Slider -->
-    <link rel="stylesheet" href="css/jquery.kenburnsy.css">
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
 
-    <!-- Animate -->
-    <link rel="stylesheet" href="css/animate.css">
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
 
-    <!-- Web Icons Font -->
-    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="css/iconmoon.css">
-    <link rel="stylesheet" href="css/et-line.css">
-    <link rel="stylesheet" href="css/ionicons.css">
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Magnific PopUp -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
 
-    <!-- Tabs -->
-    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
-    <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
 
-    <!-- Loader Style -->
-    <link rel="stylesheet" href="css/loader-1.css">
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
 
-    <!-- Costum Styles -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/ico" href="favicon.ico">
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
 
-    <!-- Modernizer & Respond js -->
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+
 </head>
+
 
 <body>
 
-    <!-- Preloader -->
-    <div class="cover"></div>
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
 
-    <div class="header">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logo.png" alt="Logo">
-                </a>
+<!-- Homepage Slider -->
+<div id="home-slider">	
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Brushed | Responsive One Page Template">Brushed Template</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Home</a></li>
+                <li><a href="#work">Our Work</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+				<li><a href="shortcodes.html" class="external">Shortcodes</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Our Work</h2>
+                    <h3 class="title-description">Check Out Our Projects on <a href="#">Dribbble</a>.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Type of Work</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
+                        <li><a href="#filter" data-option-value=".design">Design</a></li>
+                        <li><a href="#filter" data-option-value=".photography">Photography</a></li>
+                        <li><a href="#filter" data-option-value=".video">Video</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
             </div>
             
-            <!-- Menu Hamburger (Default) -->
-            <button class="main-menu-indicator" id="open-button">
-                <span class="line"></span>
-            </button>
-            
-            <div class="menu-wrap" style="background-image: url(img/nav_bg.jpg)">
-                <div class="menu-content">
-                    <div class="navigation">
-                        <span class="pe-7s-close close-menu" id="close-button"></span>
-                        <div class="search-wrap js-ui-search">
-                            <input class="js-ui-text" type="text" placeholder="Search Here...">
-                            <span class="eks js-ui-close"></span>
-                        </div>
-                    </div>
-                    <nav class="menu">
-                        <div class="menu-list">
-                            <ul>
-                                <li class="menu-item-has-children"><a href="#">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">- Default</a></li>
-                                        <li><a href="index-architecture.html">- Architecture</a></li>
-                                        <li><a href="index-full-slider.html">- Slider Full Width</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about.html">About</a></li>
-                                <li class="menu-item-has-children"><a href="#">Portfolio</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="portfolio-2column.html">-Portfolio 2 Column</a></li>
-                                        <li><a href="portfolio-3column.html">-Portfolio 3 Column</a></li>
-                                        <li><a href="portfolio-masonry.html">-Portfolio Masonry</a></li>
-                                        <li><a href="portfolio-dribbble.html">-Portfolio Dribbble</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog Default</a></li>
-                                        <li><a href="blog-timeline.html">Blog Timeline</a></li>
-                                        <li><a href="single-blog.html">Blog Single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                        
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="_include/img/work/full/image-01-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="_include/img/work/full/image-02-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="_include/img/work/full/image-03-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 video">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/51460511">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-08.jpg" alt="Video">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="_include/img/work/full/image-04-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="_include/img/work/full/image-05-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 video">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/50834315">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-09.jpg" alt="Video">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="_include/img/work/full/image-06-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="_include/img/work/full/image-07-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                        	<!-- End Item Project -->
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
 
-                    <div class="hidden-xs">
-                        <div class="menu-social-media">
-                            <ul>
-                               <li><a href="#"><i class="iconmoon-facebook"></i></a></li>
-                               <li><a href="#"><i class="iconmoon-twitter"></i></a></li>
-                               <li><a href="#"><i class="iconmoon-dribbble3"></i></a></li>
-                               <li><a href="#"><i class="iconmoon-pinterest"></i></a></li>
-                               <li><a href="#"><i class="iconmoon-linkedin2"></i></a></li>
-                            </ul>
-                        </div>
+<!-- About Section -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">About Us</h2>
+                <h3 class="title-description">Learn About our Team &amp; Culture.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- People -->
+    <div class="row">
+    	
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">CTO/Founder</span>
+                </div>
+                <img src="_include/img/profile/profile-01.jpg" alt="John Doe">
+            </div>
+            <h3 class="profile-name">John Doe</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Creative Director</span>
+                </div>
+                <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
+            </div>
+            <h3 class="profile-name">Jane Helf</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-email"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Lead Designer</span>
+                </div>
+                <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+            </div>
+            <h3 class="profile-name">Joshua Insanus</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
 
-                        <div class="menu-information">
-                            <ul>
-                                <li><span>T:</span> 003 124 115</li>
-                                <li><span>E:</span> info@mail.com</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End of Menu Hamburger (Default) -->
 
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+                <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
+            </div>
         </div>
     </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+    	<div class="span9">
+        
+        	<form id="contact-form" class="contact-form" action="#">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+        	<div class="contact-details">
+        		<h3>Contact Details</h3>
+                <ul>
+                    <li><a href="#">hello@brushed.com</a></li>
+                    <li>(916) 375-2525</li>
+                    <li>
+                        Brushed Studio
+                        <br>
+                        5240 Vanish Island. 105
+                        <br>
+                        Unknow
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
 
-    <div class="container">
-        <div class="slider-wrapper">
-            <div class="slider-description">
-                <div class="slider-description-inner">
-                    <h1>Pure<span>Elegance</span></h1>
+<!-- Twitter Feed -->
+<div id="twitter-feed" class="page-alternate">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
                 </div>
-                <div class="cd-intro">
-                    <div class="cd-headline clip">
-                        <span class="cd-words-wrapper">
-                            <b class="is-visible">AWESOME THEME</b>
-                            <b>MODERN COMBINATION</b>
-                            <b>CREATIVE SOLUTIONS</b>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div id="slider-ef" class="slider-images-wrapper">
-                <img class="img-responsive" src="img/slider/image_1.jpg" alt="">
-                <img class="img-responsive" src="img/slider/image_2.jpg" alt="">
-                <img class="img-responsive" src="img/slider/image_3.jpg" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="container margin-top">
-        <div class="history-wrapper">
-            <div class="col-md-6 wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.5s">
-                <div class="row">
-                    <article>
-                        <h1>HISTORY OF AGENCY</h1>
-                        <hr>
-                        <h4>WHO LOVES OR PURSUES OR DESIRES TO OBTAIN PAIN OF ITSELF, BUT BECAUSE OCCASIONALLY CIRCUMSTANCES OCCUR AND PAIN CAN PROCURE HIM SOME GREAT PLEASURE</h4>
-                        <p>
-                        <br/>Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi modi tempora incidunt ut labore.</p>
-                    </article>
-                </div>
-            </div>
-            <div class="col-md-5 col-md-offset-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                <div class="row">
-                    <div id="history-images" class="owl-carousel">
-                        <div><img class="img-responsive center-block" src="img/about_img.jpg" alt="About"></div>
-                        <div><img class="img-responsive center-block" src="img/about_img2.jpg" alt="About"></div>
-                        <div><img class="img-responsive center-block" src="img/about_img3.jpg" alt="About"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container margin-top">
-        <div class="main-title">
-            <h1>WHY CHOOSE US?</h1>
-            <hr>
-            <h6>Except to obtain some advantage from it</h6>
-        </div>
-        <div class="services-home-page">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="services-icon">
-                        <span class="icon-tools"></span>
-                        <hr>
-                    </div>
-                    <h4>BRANDING</h4>
-                    <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because procure him.</p>
-                </div>
-                <div class="col-md-4">
-                    <div class="services-icon">
-                        <span class="icon-globe"></span>
-                        <hr>
-                    </div>
-                    <h4>PLAN OF WORK</h4>
-                    <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because procure him.</p>
-                </div>
-                <div class="col-md-4">
-                    <div class="services-icon">
-                        <span class="icon-paintbrush"></span>
-                        <hr>
-                    </div>
-                    <h4>ILUSTRATION</h4>
-                    <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because procure him.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container margin-top">
-        <div class="main-title">
-            <h1>OUR WORK</h1>
-            <hr>
-            <h6>Laborious to obtain some advantage from it</h6>
-        </div>
-        <div class="portfolio-wrapper">
-            <button class="nav">
-                <span class="icon-container">
-                    <span class="line line01"></span>
-                    <span class="line line02"></span>
-                    <span class="line line03"></span>
-                    <span class="line line04"></span>
-                </span>
-            </button>
-            <div class="works-filter">
-                <a href="javascript:void(0)" class="filter active" data-filter="mix">All</a>
-                <a href="javascript:void(0)" class="filter" data-filter="branding">Branding</a>
-                <a href="javascript:void(0)" class="filter" data-filter="web">Web Design</a>
-                <a href="javascript:void(0)" class="filter" data-filter="graphic">Graphic Design</a>
-            </div>
-            <div class="js-masonry">
-                <div class="row" id="work-grid">
-                    <!-- Begin of Thumbs Portfolio -->
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_1.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">250</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix web">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_2.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">60</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">WATCH-J</span>
-                                    <span class="info">NEW TREND FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix graphic">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_3.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">1060</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_4.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">900</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_5.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">979</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_6.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">1024</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_7.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">2048</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_8.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">256</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding">
-                        <div class="img home-portfolio-image">
-                            <img src="img/home-portfolio/img_9.jpg" alt="Portfolio Item">
-                            <div class="overlay-thumb">
-                                <a href="javascript:void(0)" class="like-product">
-                                    <i class="ion-ios-heart-outline"></i>
-                                    <span class="like-product">Liked</span>
-                                    <span class="output">256</span>
-                                </a>
-                                <div class="details">
-                                    <span class="title">STYLE FASHION</span>
-                                    <span class="info">NEW BAG & STYLE FASHION</span>
-                                </div>
-                                <span class="btnBefore"></span>
-                                <span class="btnAfter"></span>
-                                <a class="main-portfolio-link" href="single-project.html"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="load-more">
-                <a href="javascript:void(0)" id="load-more"><i class="icon-refresh"></i></a>
-            </div>
-        </div>
-    </div>
-    <div class="container margin-top">
-        <div class="newsletter">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="newsletter-left">
-                        <div class="newsletter-left-inner">
-                            <h1>STAY INFORMED <br> WITH OUR <b>NEWSLETTER</b></h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="newsletter-right" style="background: url(img/newsletter-bg.jpg)">
-                        <div class="newsletter-right-inner">
-                            <form>
-                                <input type="text" name="newsletter" placeholder="ENTER YOUR EMAIL">
-                                <input type="submit" value="SUBSCRIBE">
-                            </form>
-                        </div>
-                    </div>
+                    
+                <div id="ticker" class="query"> 
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer margin-top">
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-2 col-sm-4 col-xs-12">
-                        <div class="footer-inner">
-                            <div class="footer-content">
-                                <h4>O.A.K THEME</h4>
-                                    <address>City 35 AM <br>Street 1395 p.n <br>your Country</address>
-                            </div>
-                        </div>
-                    </div>
+</div>
+<!-- End Twitter Feed -->
 
-                    <div class="col-md-2 col-md-push-8 col-sm-4 col-xs-12">
-                        <div class="footer-inner">
-                            <div class="footer-content">
-                               <h4>CONTACT INFO</h4>
-                                <p>
-                                    T:003 124 115 <br>
-                                    E:info@mail.com <br>
-                                    W:www.website.com
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="footer-inner">
-                            <div class="footer-content">
-                            <ul class="social-media">
-                                <li><a href="#"><i class="iconmoon-facebook"></i></a></li>
-                                <li><a href="#"><i class="iconmoon-twitter"></i></a></li>
-                                <li><a href="#"><i class="iconmoon-flickr2"></i></a></li>
-                                <li><a href="#"><i class="iconmoon-dribbble3"></i></a></li>
-                                <li><a href="#"><i class="iconmoon-pinterest"></i></a></li>
-                                <li><a href="#"><i class="iconmoon-linkedin2"></i></a></li>
-                            </ul>
-                            <span class="copyright-mark">&copy; 2015 OAK, ALL RIGHTS RESERVED</span>
-                            </div>
-                        </div>
-                    </div>
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
+                        <li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
+                        <li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
+                        <li><a href="https://www.facebook.com/Bluxart" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="http://www.linkedin.com/in/alessioatzeni" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                        <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
+                        <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
-    <a href="javascript:void(0)" class="scroll-top" id="scroll-top"><i class="pe-7s-angle-up"></i></a>
+</div>
+<!-- End Socialize -->
 
-    <script src="js/vendor/jquery-1.11.2.min.js"></script>
-    <script data-pace-options='{ "ajax": false }' src="js/vendor/pace.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/vendor/classie.js"></script>
-    <script src="js/vendor/isotope.pkgd.min.js"></script>
-    <script src="js/vendor/jquery.velocity.min.js"></script>
-    <script src="js/vendor/jquery.kenburnsy.min.js"></script>
-    <script src="js/vendor/textslide.js"></script>
-    <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
-    <script src="js/vendor/tabs.js"></script>
-    <script src="js/ef-slider.js"></script>    
-    <script src="js/vendor/owl.carousel.min.js"></script>
-    <script src="js/vendor/jquery.magnific-popup.min.js"></script>
-    <script src="js/vendor/jquery.social-buttons.min.js"></script>
-    <script src="js/vendor/wow.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/ajax.js"></script>
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2013 Brushed. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
 </body>
 </html>
