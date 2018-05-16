@@ -480,8 +480,12 @@
 	<script src="js/main.js"></script>
     
     <script>
-        $( "head" ).load( "/includes/head.html" );
+        $(document).ready(function () {
+            $( "head" ).load( "/includes/head.html" );
+        });
+        
     </script>
+        
     
 </body>
 </html>
