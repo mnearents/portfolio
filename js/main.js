@@ -86,89 +86,89 @@
 		}		
 	}
 
-	Minimalist.prototype.handleUrl = function(url) {
+//	Minimalist.prototype.handleUrl = function(url) {
+//
+//		var transitionEnd;
+//
+//		this.showOverlay();
+//
+//		transitionEnd = function(){
+//			this.request(url, this.pageTransition, this.pageFailedTransition);	
+//			this.dom.overlay.removeEventListener('transitionend', transitionEnd);
+//		}.bind(this);
+//
+//		this.dom.overlay.addEventListener('transitionend', transitionEnd, false);
+//
+//		this.loadTimeout = setTimeout(function() {
+//
+//			var backBtn, directBtn;
+//
+//			backBtn   = this.dom.longLoading.querySelector('.js-overlay-hide');
+//			directBtn = this.dom.longLoading.querySelector('.js-direct');
+//
+//			this.dom.longLoading.classList.remove('is-hidden');
+//			this.dom.overlay.firstElementChild.classList.add('is-hidden');
+//
+//			directBtn.onclick = function() {
+//				this.hideOverlay();
+//				this.xhttp.removeEventListener('load', this.pageLoaded);
+//				location.replace(url);
+//			}.bind(this);
+//
+//			backBtn.onclick = function() {
+//				this.hideOverlay();
+//				this.xhttp.removeEventListener('load', this.pageLoaded);
+//			}.bind(this);
+//			
+//		}.bind(this), 5000);    
+//	}
 
-		var transitionEnd;
-
-		this.showOverlay();
-
-		transitionEnd = function(){
-			this.request(url, this.pageTransition, this.pageFailedTransition);	
-			this.dom.overlay.removeEventListener('transitionend', transitionEnd);
-		}.bind(this);
-
-		this.dom.overlay.addEventListener('transitionend', transitionEnd, false);
-
-		this.loadTimeout = setTimeout(function() {
-
-			var backBtn, directBtn;
-
-			backBtn   = this.dom.longLoading.querySelector('.js-overlay-hide');
-			directBtn = this.dom.longLoading.querySelector('.js-direct');
-
-			this.dom.longLoading.classList.remove('is-hidden');
-			this.dom.overlay.firstElementChild.classList.add('is-hidden');
-
-			directBtn.onclick = function() {
-				this.hideOverlay();
-				this.xhttp.removeEventListener('load', this.pageLoaded);
-				location.replace(url);
-			}.bind(this);
-
-			backBtn.onclick = function() {
-				this.hideOverlay();
-				this.xhttp.removeEventListener('load', this.pageLoaded);
-			}.bind(this);
-			
-		}.bind(this), 5000);    
-	}
-
-	Minimalist.prototype.pageTransition = function(responseHTML, url) {
-
-		var fragment;
-
-		this.isLoaded = true;
-
-		window.scrollTo(0, 0);
-		clearTimeout(this.loadTimeout);
-
-        fragment = document.createElement('div');
-        fragment.innerHTML = responseHTML;
-
-        responseContainer = fragment.querySelector('.content-insert');
-        this.dom.containerToInsert.innerHTML = '';
-        this.dom.containerToInsert.innerHTML = responseContainer.innerHTML;
-
-        this.dom.longLoading.classList.add('is-hidden');
-        this.hideOverlay();
-
-        // Restart function
-        this.initPageTransition();
-        this.initNavigation();
-        this.initTestimonialSlider();
-
-        if (this.isBack) {
-        	this.oldLinks.pop();	
-		} else {
-			this.oldLinks.push(window.location.href);
-		}
-
-        window.history.pushState(null, null, url);    
-	}
-
-	Minimalist.prototype.pageFailedTransition = function(message) {
-		console.error(message);
-	}
-
-	Minimalist.prototype.showOverlay = function() {
-		this.dom.overlay.classList.remove('is-hidden');
-		this.dom.overlay.classList.add('is-vissible');
-	}
-
-	Minimalist.prototype.hideOverlay = function() {
-		this.dom.overlay.classList.remove('is-vissible');
-        this.dom.overlay.classList.add('is-hidden'); 
-	}
+//	Minimalist.prototype.pageTransition = function(responseHTML, url) {
+//
+//		var fragment;
+//
+//		this.isLoaded = true;
+//
+//		window.scrollTo(0, 0);
+//		clearTimeout(this.loadTimeout);
+//
+//        fragment = document.createElement('div');
+//        fragment.innerHTML = responseHTML;
+//
+//        responseContainer = fragment.querySelector('.content-insert');
+//        this.dom.containerToInsert.innerHTML = '';
+//        this.dom.containerToInsert.innerHTML = responseContainer.innerHTML;
+//
+//        this.dom.longLoading.classList.add('is-hidden');
+//        this.hideOverlay();
+//
+//        // Restart function
+//        this.initPageTransition();
+//        this.initNavigation();
+//        this.initTestimonialSlider();
+//
+//        if (this.isBack) {
+//        	this.oldLinks.pop();	
+//		} else {
+//			this.oldLinks.push(window.location.href);
+//		}
+//
+//        window.history.pushState(null, null, url);    
+//	}
+//
+//	Minimalist.prototype.pageFailedTransition = function(message) {
+//		console.error(message);
+//	}
+//
+//	Minimalist.prototype.showOverlay = function() {
+//		this.dom.overlay.classList.remove('is-hidden');
+//		this.dom.overlay.classList.add('is-vissible');
+//	}
+//
+//	Minimalist.prototype.hideOverlay = function() {
+//		this.dom.overlay.classList.remove('is-vissible');
+//        this.dom.overlay.classList.add('is-hidden'); 
+//	}
 
 
 	// --------------------------- NAVIGATION ---------------------------
