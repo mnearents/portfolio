@@ -267,7 +267,7 @@ h5 {
 .hero {
   position: relative; }
   .hero .hero-content {
-    margin-top: -54px;
+    margin-top: 100px;
     position: absolute;
     top: 40%;
     left: 10%;
@@ -298,8 +298,8 @@ h5 {
     text-transform: uppercase; }
 
 .hero-image {
-  height: 100vh;
-  height: calc(100vh - 83px); }
+  height: 60vh;
+  height: calc(60vh - 83px); }
 
 /*-----------------------------------------------------------*/
 /*--------------------- COMPOSING STYLES --------------------*/
