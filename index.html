@@ -5,41 +5,11 @@
 <!--<![endif]-->
 <head>
     <title>MATTHEW NEARENTS</title>
-
 </head>
 <body>
 	<div class="content-wrapper content-insert">
 		<header class="header">
-			<div class="logo">
-				<a class="logo__text" href="/" title="Minimalist - home page">MATTHEW NEARENTS</a>
-				<!-- Uncomment if you want to use image as site logo -->
-				<!-- <img class="logo__image" src="img/logo.png" alt="Logo"> -->
-			</div>
-			<nav class="navigation">
-				<button class="nav__toggle" type="button" title="Toggle menu navigation">
-					<span class="icon hamburger">
-						<span></span>
-						<span></span>
-						<span></span>
-					</span>
-				</button>
-				<ul class="nav-list">
-					<li class="nav-list__item">
-						<a href="about.html" class="nav-list__link">About</a>
-					</li>
-					<li class="nav-list__item">
-						<a href="#services" class="nav-list__link">Process</a>
-					</li>
-					<li class="nav-list__item">
-						<a href="https://drive.google.com/open?id=1gqK2UYgfReIo42Y6ImXTxTGIRPXvWZCiv8sk9IUchBs" class="nav-list__link" target="_blank">Resume</a>
-					</li>
-<!--
-					<li class="nav-list__item">
-						<a href="#contact" class="nav-list__link">Contact</a>
-					</li>
--->
-				</ul>
-			</nav>
+			<!-- included by jQuery below -->
 		</header>
 
 		<main class="content">
@@ -409,42 +379,7 @@
 		</main>
 
 		<footer class="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-12">
-						<ul class="social-list">
-
-                            <li class="social-list__item">
-								<a class="social-list__link" href="https://www.linkedin.com/in/mnearents" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-							</li>
-                            
-							<li class="social-list__item">
-								<a class="social-list__link" href="https://www.behance.net/nearents" target="_blank"><i class="fab fa-behance" aria-hidden="true"></i></a>
-							</li>
-                            
-                            <li class="social-list__item">
-								<a class="social-list__link" href="https://open.spotify.com/artist/6FmUWSKSwTus9kSzv3GlQv?si=n4RxxGtqQba6WDTApB-lMQ" target="_blank"><i class="fab fa-spotify" aria-hidden="true"></i></a>
-							</li>
-                            
-                            <li class="social-list__item">
-								<a class="social-list__link" href="https://itunes.apple.com/us/artist/ofi/1191615616" target="_blank"><i class="fab fa-itunes-note" aria-hidden="true"></i></a>
-							</li>
-						</ul>
-					</div> <!-- end .col-md-6 -->
-
-					<div class="col-md-6 col-sm-6 col-xs-12">
-						<div class="logo footer-logo">
-							<a class="logo__text" href="/" title="Minimalist - home page">Matthew Nearents</a>
-							<!-- Reccoment if you want to use image as site logo -->
-							<!-- <img class="logo__image" src="img/logo.png" alt="Logo"> -->
-							<p class="copyright">
-								&copy; 2018 All rights reserved.
-							</p>
-						</div>
-					</div> <!-- end .col-md-6 -->
-					
-				</div> <!-- end .row -->
-			</div> <!-- end .container -->
+			<!-- included by jQuery below -->
 		</footer>
         
 	</div>
@@ -474,6 +409,8 @@
     <script>
         $(document).ready(function () {
             $( "head" ).load( "includes/head.html" );
+            $( "header" ).load( "includes/header.html" );
+            $( "footer" ).load( "includes/footer.html" );
         });
         
     </script>
