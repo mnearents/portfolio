@@ -175,6 +175,8 @@
 	Minimalist.prototype.initNavigation = function(selector) {
 
 		var navToggle;
+        
+        console.log(selector)
 
 		this.dom.navContainer = document.querySelector('.navigation');
 
