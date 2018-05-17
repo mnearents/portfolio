@@ -8,7 +8,7 @@
 
 		this.dom = {};
 		this.dom.overlay 			= document.querySelector('.overlay');
-		this.dom.longLoading 		= this.dom.overlay.querySelector('.long-loading-container');
+//		this.dom.longLoading 		= this.dom.overlay.querySelector('.long-loading-container');
 		this.dom.containerToInsert 	= document.querySelector('.content-insert');
 
 //		document.addEventListener('DOMContentLoaded', function(){
