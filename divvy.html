@@ -55,7 +55,23 @@
 <body>
 	<div class="content-wrapper content-insert">
 		<header class="header">
-			<!-- included by jQuery below -->
+			 <div class="logo">
+                <a class="logo__text" href="/portfolio" title="Matthew Nearents - home page">MATTHEW NEARENTS</a>
+                <!-- Uncomment if you want to use image as site logo -->
+                <!-- <img class="logo__image" src="img/logo.png" alt="Logo"> -->
+            </div>
+            <nav class="navigation">
+                <button class="nav__toggle" type="button" title="Toggle menu navigation">
+                    <span class="icon hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+                <ul class="nav-list">
+
+                </ul>
+            </nav>
 		</header>
 
 		<main class="content content-project">
@@ -239,7 +255,8 @@
     <script>
         $(document).ready(function () {
 //            $( "head" ).load( "includes/head.html" );
-            $( "header" ).load( "includes/header.html" );
+//            $( "header" ).load( "includes/header.html" );
+            $( "ul.nav-list" ).load( "includes/header.html" );
             $( "footer" ).load( "includes/footer.html" );
         });
         
