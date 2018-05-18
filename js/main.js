@@ -30,7 +30,7 @@
 				if (this.oldLinks.length > 0) {
 
 					this.isBack = true;
-					this.handleUrl(this.oldLinks[this.oldLinks.length - 1]);
+//					this.handleUrl(this.oldLinks[this.oldLinks.length - 1]);
 				}
 			}.bind(this);
 
