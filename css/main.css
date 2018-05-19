@@ -1,6 +1,6 @@
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
-/* v1.1 */
+/* v1.2 */
 
 button, hr, input {
   overflow: visible; }
@@ -932,6 +932,12 @@ h5 {
 /*-----------------------------------------------------------*/
 /*--------------------- RESPONSIVE STYLES -------------------*/
 /*-----------------------------------------------------------*/
+
+@media (min-width: 1400px) {
+    .onlyForMobile {
+        display: none !important;
+    }
+}
 @media (max-width: 1400px) {
   .hero .hero-content {
     margin-top: 175px; }
