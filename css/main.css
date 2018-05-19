@@ -1,6 +1,6 @@
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
-/* v1.2 */
+/* v1.3 */
 
 button, hr, input {
   overflow: visible; }
@@ -1163,11 +1163,25 @@ h5 {
     left: -50%; }
   .project-items .image-holder {
     margin-bottom: 40px; }
-  .project-items .image-holder img {
+  
+    
+    /*
+    .project-items .image-holder img {
     position: relative;
     left: -60px;
     width: 130%;
     width: calc(100% + 90px); }
+    
+    */
+    
+    .project-items .image-holder img {
+    position: relative;
+    left: -20px;
+    width: 100%;
+    width: calc(100% + 40px); }
+    
+    
+    
   /*--------------------- Contact Form -------------------------*/
   .contact .form {
     margin-top: 35px; }
