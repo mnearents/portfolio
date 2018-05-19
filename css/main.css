@@ -933,7 +933,7 @@ h5 {
   .hero .hero-content {
     margin-top: 175px; }
   .onlyForMobile {
-    display: none; }}
+    display: none !important; }}
 
 @media (min-width: 769px) and (max-width: 992px) {
   .hero .hero-content {
@@ -949,7 +949,7 @@ h5 {
     -webkit-transform: translateX(0px);
     transform: translateX(0px); }
   .onlyForMobile {
-    display: none; }}
+    display: none !important; }}
 
 @media (min-width: 993px) and (max-width: 1200px) {
   .project .content {
@@ -961,7 +961,7 @@ h5 {
   .about .image-holder {
     max-width: 205px; }
     .onlyForMobile {
-        display: none; }}
+        display: none !important; }}
 
 @media (max-width: 768px) {
   .section {
@@ -972,7 +972,7 @@ h5 {
     margin-bottom: 65px; }
     
   .onlyForMobile {
-        display: block;
+        display: block !important;
     }
   /*--------------------- Header ------------------------------*/
   .header {
