@@ -565,8 +565,10 @@ h5 {
 /*--------------------- Social List -------------------------*/
 .social-list {
   list-style: none; }
+
   .social-list .social-list__item {
     display: inline-block; }
+
   .social-list .social-list__link {
     padding: 5px;
     display: inline-block;
@@ -1241,7 +1243,15 @@ h5 {
     text-align: center; }
   .footer-logo {
     margin-top: 32px;
-    margin-left: 0; } }
+    margin-left: 0; } 
+
+   .social-list .social-list__link {
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 20px; }
+    
+    
+}
 
 @media (max-width: 525px) {
   .nav .nav__item {
@@ -1295,4 +1305,11 @@ h5 {
   .nav .nav__item.disabled > a:focus .nav__desc {
     -webkit-transform: none;
     -ms-transform: none;
-    transform: none; } }
+    transform: none; } 
+
+    .social-list .social-list__link {
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 20px; }
+    
+}
