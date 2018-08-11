@@ -402,6 +402,16 @@ h5 {
     -ms-transform: translateX(-127px);
     transform: translateX(-127px); }
 
+/* Overlay Fade project */
+/*
+.project .image-holder .overlayy {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 2px solid black;
+    }
+*/
+
 .project--opposite {
   overflow: hidden; }
   .project--opposite .image-holder {
@@ -416,6 +426,13 @@ h5 {
   .project--opposite .caption:before {
     left: auto;
     right: 0; }
+
+/* Overlay Fade project--opposite */
+/*
+    .project--opposite .image-holder .overlayy {
+      transform: rotate(180deg);
+    }
+*/
 
 .video-wrapper {
 	position: relative;
