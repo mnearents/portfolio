@@ -414,7 +414,6 @@ h5 {
   top: 0;
   left: 0;
   width: 100%;  
-  border: 1px solid red;
 }
 
 
@@ -439,7 +438,6 @@ h5 {
   transform:rotate(180deg);
   left: auto;
   right: 0;
-  border: 1px solid red;
 }
 
 .video-wrapper {
