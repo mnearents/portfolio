@@ -855,6 +855,17 @@ h5 {
 .project-items .project-item {
   margin-bottom: 95px; }
 
+ul.myrole {
+    list-style-type: none;
+   margin-bottom: 40px;
+
+  }
+
+  ul.myrole li {
+  
+    font-style: italic;
+  }
+
 /*-----------------------------------------------------------*/
 /*--------------------- NAVIGATION STYLES -------------------*/
 /*-----------------------------------------------------------*/
