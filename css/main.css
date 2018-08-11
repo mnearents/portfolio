@@ -403,14 +403,14 @@ h5 {
     transform: translateX(-127px); }
 
 /* Overlay Fade project */
-/*
 .project .image-holder .overlayy {
-      position: absolute;
-      top: 0;
-      left: 0;
-      border: 2px solid black;
+      
+     max-width: 555px;
+     position: absolute;
+     top: 0;
+     border: 1px solid blue;
+     
     }
-*/
 
 .project--opposite {
   overflow: hidden; }
@@ -428,11 +428,10 @@ h5 {
     right: 0; }
 
 /* Overlay Fade project--opposite */
-/*
-    .project--opposite .image-holder .overlayy {
+    .project--opposite .image-holder picture.overlayy {
       transform: rotate(180deg);
+    
     }
-*/
 
 .video-wrapper {
 	position: relative;
