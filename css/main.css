@@ -383,7 +383,8 @@ h5 {
   clear: both; }
   .project .image-holder {
     max-width: 555px;
-    overflow: hidden; }
+    overflow: hidden;
+    position: relative; }
   .project .image-holder img {
     width: 100%;
     -ms-transition: transform 400ms ease-in-out;
@@ -403,13 +404,20 @@ h5 {
     transform: translateX(-127px); }
 
 /* Overlay Fade project */
-.project .image-holder .overlayy {
-      
-     max-width: 555px;
-     position: absolute;
-     top: 0;
-     
-    }
+.project .image-holder picture img{
+  display: inline;
+
+}
+
+.project .image-holder img.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;  
+  border: 1px solid red;
+}
+
+
 
 .project--opposite {
   overflow: hidden; }
@@ -427,10 +435,12 @@ h5 {
     right: 0; }
 
 /* Overlay Fade project--opposite */
-    .project--opposite .image-holder picture.overlayy {
-      transform: rotate(180deg);
-    
-    }
+.project--opposite .image-holder img.overlay-image {
+  transform:rotate(180deg);
+  left: auto;
+  right: 0;
+  border: 1px solid red;
+}
 
 .video-wrapper {
 	position: relative;
