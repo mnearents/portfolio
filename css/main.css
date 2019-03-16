@@ -305,8 +305,8 @@ h5 {
     text-transform: uppercase; }
 
 .hero-image {
-  height: 100vh;
-  height: calc(100vh - 200px); }
+  height: 50vh;
+  height: calc(50vh - 200px); }
 
 /*-----------------------------------------------------------*/
 /*--------------------- COMPOSING STYLES --------------------*/
