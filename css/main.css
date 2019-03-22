@@ -308,6 +308,11 @@ h5 {
   height: 50vh;
   height: calc(50vh - 200px); }
 
+.items-hero {
+  margin-top: 40px;
+  margin-bottom: -85px;
+}
+
 /*-----------------------------------------------------------*/
 /*--------------------- COMPOSING STYLES --------------------*/
 /*-----------------------------------------------------------*/
@@ -1288,7 +1293,11 @@ ul.myrole {
     display: inline-block;
     font-size: 20px; }
     
-    
+.items-hero {
+    margin-top: 80px;
+    margin-bottom: -40px;
+
+}
 }
 
 @media (max-width: 525px) {
