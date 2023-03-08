@@ -1,0 +1,189 @@
+/*-----------------------------------------------------------*/
+/*--------------------- GENERAL STYLES ----------------------*/
+/*-----------------------------------------------------------*/
+.content-project .image-holder img {
+    width: 100%;
+}
+
+.content-project {
+    margin-bottom: 135px;
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*--------------------- HERO IMAGE --------------------------*/
+/*-----------------------------------------------------------*/
+.hero-project-image { 
+    padding: 120px 0;
+
+    .image-holder {
+        padding:  0;
+        position: relative;
+        right:    0;
+    }
+
+    .image-holder img {
+        width: 100%;
+    }
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*--------------------- ABOUT STYLES ------------------------*/
+/*-----------------------------------------------------------*/
+.about {
+    .about__description {
+        margin-top: 25px;
+    }
+
+    p {
+        margin-bottom: 30px;
+        font-size:     16px;
+        line-height:   30px;
+    }
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*--------------------- PROJECT ITEMS STYLES ----------------*/
+/*-----------------------------------------------------------*/
+.project-items {
+    .project-item {
+        margin-bottom: 95px;
+    }
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*--------------------- NAVIGATION STYLES -------------------*/
+/*-----------------------------------------------------------*/
+.nav {
+    overflow: hidden;
+
+    .nav__item {
+        display: inline-block;
+    }
+
+    .nav__item.next {
+        float: right;
+    }
+
+    .nav__item.prev {
+        float: left;
+    }
+
+    .nav__desc {
+        display:        inline-block;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        vertical-align: middle;
+
+        @include transition(transform 400ms ease-in-out);
+    }
+
+    .prev .nav__desc {
+        padding-left: 45px;
+    }
+
+    .next .nav__desc {
+        padding-right: 45px;
+    }
+
+    .icon {
+        vertical-align: middle;
+        -ms-transition: background-image 300ms ease-in-out, transform 350ms ease-in-out;
+            transition: background-image 300ms ease-in-out, transform 350ms ease-in-out;
+    }
+
+    .nav__item > a:hover,
+    .nav__item > a:focus {
+        background-color: transparent;
+    }
+
+    .nav__item > a:hover .icon,
+    .nav__item > a:focus .icon,
+    .nav__item.disabled > a .icon  {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNyIgaGVpZ2h0PSIyMSIgdmlld0JveD0iMCAwIDI3IDIxIj4gIDxwYXRoIGZpbGw9IiM5OTkiIGQ9Ik0yNywxMUgyNi42ODZsLTEwLDEwLTAuNzA3LS43MDdMMjUuMjcyLDExSDBWMTBIMjUuMjg1TDE2LDAuNzE2bDAuNzA1LS43MDVMMjYuNjk1LDEwSDI3djFaIi8+PC9zdmc+);  
+    }
+
+    .nav__item.prev > a:hover .icon,
+    .nav__item.prev > a:focus .icon {
+        @include transform(translateX(5px) rotate(180deg));
+    }
+
+    .nav__item.next > a:hover .icon,
+    .nav__item.next > a:focus .icon {
+        @include transform(translateX(-5px));
+    }
+
+
+    .nav__item.prev > a:hover .nav__desc,
+    .nav__item.prev > a:focus .nav__desc {
+        @include transform(translateX(-25px));
+    }
+
+    .nav__item.next > a:hover .nav__desc,
+    .nav__item.next > a:focus .nav__desc {
+        @include transform(translateX(25px));
+    }
+
+    .nav__item.disabled > a .nav__desc {
+        color: $color_link_hover;
+    }
+
+    .nav__item.disabled > a:hover .nav__desc,
+    .nav__item.disabled > a:hover .icon  {
+        @include transform(translateX(0px));
+    }
+
+    .nav__item.disabled.prev > a:hover .icon {
+        @include transform(translateX(0px) rotate(180deg));
+    }
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*--------------------- FOOTER STYLES -----------------------*/
+/*-----------------------------------------------------------*/
+.footer {
+    padding-top:      60px;
+    min-height:       170px;
+    background-color: $color_additional;
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*--------------------- ICONS -------------------------------*/
+/*-----------------------------------------------------------*/
+.arrow-left,
+.arrow-right {
+    width:    27px;
+    height:   35px;
+    display:  inline-block;
+    background-image:   url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNyIgaGVpZ2h0PSIyMSIgdmlld0JveD0iMCAwIDI3IDIxIj4gIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTI3LDExSDI2LjY4NmwtMTAsMTAtMC43MDctLjcwN0wyNS4yNzIsMTFIMFYxMEgyNS4yODVMMTYsMC43MTZsMC43MDUtLjcwNUwyNi42OTUsMTBIMjd2MVoiLz48L3N2Zz4=);
+    background-repeat:   no-repeat;
+    background-position: 0% 50%;
+}
+
+.arrow-left {
+    @include transform(rotate(180deg));
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*--------------------- SECTIONS STYLES ---------------------*/
+/*-----------------------------------------------------------*/
+.section-about-project {
+    margin-bottom: 120px;
+}
+
+.section-project-nav {
+    margin-top: 40px;    
+}

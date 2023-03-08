@@ -1,0 +1,56 @@
+@mixin transition($transition) {
+    -ms-transition: $transition;
+        transition: $transition;
+}
+
+@mixin transform($transform) {
+	-webkit-transform: $transform;
+    	-ms-transform: $transform;
+        	transform: $transform;
+}
+
+@mixin transform-origin($transform-origin) {
+	-webkit-transform-origin: $transform-origin;
+    	-ms-transform-origin: $transform-origin;
+        	transform-origin: $transform-origin;
+}
+
+@mixin content-tl($top: 0, $left: 0, $height: 100%, $width: 100%, $bg_color: $color_inverse) {
+    content: 		  '';
+    position: 		  absolute;
+    top: 			  $top;
+    left: 			  $left;
+    height: 		  $height;
+    width: 			  $width;
+    background-color: $bg_color;
+}
+
+@mixin content-tr($top: 0, $right: 0, $height: 100%, $width: 100%, $bg_color: $color_inverse) {
+    content: 		  '';
+    position: 		  absolute;
+    top: 			  $top;
+    right: 			  $right;
+    height: 		  $height;
+    width: 			  $width;
+    background-color: $bg_color;
+}
+
+@mixin content-bl($bottom: 0, $left: 0, $height: 100%, $width: 100%, $bg_color: $color_inverse) {
+    content: 		  '';
+    position: 		  absolute;
+    bottom: 		  $bottom;
+    left: 			  $left;
+    height: 		  $height;
+    width: 			  $width;
+    background-color: $bg_color;
+}
+
+@mixin content-br($bottom: 0, $right: 0, $height: 100%, $width: 100%, $bg_color: $color_inverse) {
+    content: 		  '';
+    position: 		  absolute;
+    bottom: 		  $bottom;
+    right: 			  $right;
+    height: 		  $height;
+    width: 			  $width;
+    background-color: $bg_color;
+}
